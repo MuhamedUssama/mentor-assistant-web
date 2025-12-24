@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mentor Assistant | Smart Tracking Tool</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .bg-brand { background-color: #004182; } /* Your App Theme Color */
+        .text-brand { color: #004182; }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        .animate-float {
+            animation: float 6s ease-in-out infinite;
+        }
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-20px); }
+            100% { transform: translateY(0px); }
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800">
+
+    <header class="relative overflow-hidden bg-brand text-white min-h-[85vh] flex items-center justify-center">
+        <div class="absolute top-0 left-0 w-full h-full overflow-hidden opacity-10">
+            <div class="absolute -top-24 -left-24 w-96 h-96 rounded-full bg-white blur-3xl"></div>
+            <div class="absolute top-1/2 right-0 w-64 h-64 rounded-full bg-white blur-3xl"></div>
+        </div>
+
+        <div class="container mx-auto px-6 relative z-10 text-center">
+            <div class="mb-8 animate-float inline-block">
+                <div class="w-24 h-24 bg-white/10 rounded-2xl flex items-center justify-center backdrop-blur-sm border border-white/20 shadow-xl">
+                    <i class="fa-solid fa-rocket text-5xl text-white"></i>
+                </div>
+            </div>
+
+            <h1 class="text-5xl md:text-7xl font-bold mb-6 tracking-tight">
+                Mentor <span class="text-blue-200">Assistant</span>
+            </h1>
+            <p class="text-xl md:text-2xl text-blue-100 max-w-2xl mx-auto mb-10 font-light">
+                Streamline your workflow. Reports, Follow-ups, and Feedback all in one place.
+            </p>
+
+            <div class="flex flex-col md:flex-row gap-4 justify-center items-center">
+                <a href="https://github.com/MuhamedUssama/mentor-assistant-dist/releases/latest/download/MentorAssistant_Setup.exe" 
+                   class="bg-white text-brand px-8 py-4 rounded-xl font-bold text-lg shadow-lg hover:shadow-2xl hover:scale-105 transition-all duration-300 flex items-center gap-3">
+                    <i class="fa-brands fa-windows text-2xl"></i>
+                    Download for Windows
+                </a>
+                
+                <button disabled class="bg-blue-900/50 text-white/50 px-8 py-4 rounded-xl font-semibold text-lg border border-white/10 cursor-not-allowed flex items-center gap-3">
+                    <i class="fa-brands fa-apple text-2xl"></i>
+                    macOS (Coming Soon)
+                </button>
+            </div>
+            
+            <p class="mt-6 text-sm text-blue-200 opacity-80">
+                Latest Version: <span class="font-mono bg-white/10 px-2 py-1 rounded">v1.0.0</span>
+            </p>
+        </div>
+    </header>
+
+    <section class="py-20 container mx-auto px-6 -mt-20 relative z-20">
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="glass-card p-8 rounded-2xl shadow-xl hover:-translate-y-2 transition-transform duration-300">
+                <div class="w-14 h-14 bg-blue-100 rounded-lg flex items-center justify-center mb-6 text-brand text-2xl">
+                    <i class="fa-solid fa-file-pdf"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-3">PDF Reports</h3>
+                <p class="text-slate-600">Generate professional weekly reports with automated statistics and charts in seconds.</p>
+            </div>
+
+            <div class="glass-card p-8 rounded-2xl shadow-xl hover:-translate-y-2 transition-transform duration-300">
+                <div class="w-14 h-14 bg-orange-100 rounded-lg flex items-center justify-center mb-6 text-orange-600 text-2xl">
+                    <i class="fa-solid fa-list-check"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-3">Smart Follow-up</h3>
+                <p class="text-slate-600">Track student progress and manage tasks efficiently without manual data entry.</p>
+            </div>
+
+            <div class="glass-card p-8 rounded-2xl shadow-xl hover:-translate-y-2 transition-transform duration-300">
+                <div class="w-14 h-14 bg-green-100 rounded-lg flex items-center justify-center mb-6 text-green-600 text-2xl">
+                    <i class="fa-solid fa-bolt"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-3">Auto Updates</h3>
+                <p class="text-slate-600">Always stay up-to-date with the latest features and bug fixes automatically.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-white py-10 border-t border-slate-200 text-center">
+        <p class="text-slate-500">
+            © 2025 Mentor Assistant. Built with Flutter.
+        </p>
+        <div class="flex justify-center gap-4 mt-4">
+            <a href="#" class="text-slate-400 hover:text-brand transition-colors"><i class="fa-brands fa-github text-xl"></i></a>
+            <a href="#" class="text-slate-400 hover:text-brand transition-colors"><i class="fa-brands fa-linkedin text-xl"></i></a>
+        </div>
+    </footer>
+
+</body>
+</html>
