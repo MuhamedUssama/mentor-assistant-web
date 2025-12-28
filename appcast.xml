@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
-    <channel>
-        <title>Mentor Assistant Changelog</title>
-        <description>Most recent updates for Mentor Assistant</description>
-        <language>en</language>
+  <channel>
+    <title>Mentor Assistant Changelog</title>
+    <description>Most recent updates for Mentor Assistant</description>
+    <language>en</language>
 
-        <item>
-            <title>Version 1.0.0</title>
-            <description>
+    <item>
+      <title>Version 1.0.0</title>
+      <description>
                 <![CDATA[
                   <style>
                     body { 
                       font-family: 'Segoe UI', sans-serif; 
-                      color: #1e293b; /* Dark Slate (Readable text) */
-                      background-color: #ffffff; /* Force White Background */
+                      color: #1e293b; 
+                      background-color: #ffffff; 
                       font-size: 14px;
                       padding: 10px;
                     }
                     h2 { 
-                      color: #004182; /* Route Blue */
+                      color: #004182; 
                       border-bottom: 1px solid #e2e8f0;
                       padding-bottom: 5px;
                       margin-top: 0;
@@ -35,14 +35,21 @@
                   </ul>
                 ]]>
             </description>
-            <pubDate>Thu, 25 Dec 2025 12:00:00 +0000</pubDate>
+      <pubDate>Thu, 25 Dec 2025 12:00:00 +0000</pubDate>
 
-            <enclosure
-                url="https://github.com/MuhamedUssama/mentor-assistant-web/releases/download/v1.0.0/Mentor.Assistant.exe"
-                sparkle:version="1.0.0"
-                sparkle:os="windows"
-                length="14661027"
-                type="application/octet-stream" />
-        </item>
-    </channel>
+      <enclosure
+        url="https://github.com/MuhamedUssama/mentor-assistant-web/releases/download/v1.0.0/Mentor.Assistant.exe"
+        sparkle:version="1.0.0"
+        sparkle:os="windows"
+        length="14661027"
+        type="application/octet-stream" />
+
+      <enclosure
+        url="https://github.com/MuhamedUssama/mentor-assistant-web/releases/download/v1.0.0/Mentor.Assistant.dmg"
+        sparkle:version="1.0.0"
+        sparkle:os="macos"
+        length="89169920"
+        type="application/octet-stream" />
+    </item>
+  </channel>
 </rss>
