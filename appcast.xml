@@ -8,32 +8,23 @@
     <item>
       <title>Version 1.1.0</title>
       <description>
-                <![CDATA[
-                  <style>
-                    body { 
-                      font-family: 'Segoe UI', sans-serif; 
-                      color: #1e293b; 
-                      background-color: #ffffff; 
-                      font-size: 14px;
-                      padding: 10px;
-                    }
-                    h2 { 
-                      color: #004182; 
-                      border-bottom: 1px solid #e2e8f0;
-                      padding-bottom: 5px;
-                      margin-top: 0;
-                    }
-                    li { margin-bottom: 5px; }
-                  </style>
+        <![CDATA[
+          <style>
+             body { font-family: 'Segoe UI', sans-serif; font-size: 14px; padding: 10px; color: #1e293b; }
+             h2 { color: #004182; border-bottom: 1px solid #e2e8f0; padding-bottom: 5px; margin-top: 0; }
+             li { margin-bottom: 5px; }
+          </style>
 
-                  <h2>✨ New Updates</h2>
-                  <ul>
-                    <li>Improved UI responsiveness.</li>
-                    <li>General bug fixes and performance improvements.</li>
-                  </ul>
-                ]]>
-            </description>
-      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+          <h2>🚀 Major Update: Rebranding & Smarter Workflows</h2>
+          <ul>
+            <li><strong>🎨 New Look:</strong> Completely redesigned UI for a modern experience.</li>
+            <li><strong>🧠 Smart Follow-up:</strong> Automatically parse student replies from emails.</li>
+            <li><strong>🔐 Enhanced Security:</strong> Improved Google Sign-In with Refresh Token support.</li>
+            <li><strong>🍏 macOS Fixes:</strong> Resolved keychain access issues on macOS.</li>
+          </ul>
+        ]]>
+      </description>
+      <pubDate>Sat, 03 Jan 2026 20:30:00 +0200</pubDate>
 
       <enclosure
         url="https://github.com/MuhamedUssama/mentor-assistant-web/releases/download/v1.1.0/Mentor.Assistant.exe"
@@ -41,38 +32,33 @@
         sparkle:os="windows"
         length="14817304"
         type="application/octet-stream" />
+
+      <enclosure
+        url="https://github.com/MuhamedUssama/mentor-assistant-web/releases/download/v1.1.0/MentorAssistant.dmg"
+        sparkle:version="1.1.0"
+        sparkle:os="macos"
+        length="23762973"
+        type="application/octet-stream" />
     </item>
 
     <item>
       <title>Version 1.0.0</title>
       <description>
-                <![CDATA[
-                  <style>
-                    body { 
-                      font-family: 'Segoe UI', sans-serif; 
-                      color: #1e293b; 
-                      background-color: #ffffff; 
-                      font-size: 14px;
-                      padding: 10px;
-                    }
-                    h2 { 
-                      color: #004182; 
-                      border-bottom: 1px solid #e2e8f0;
-                      padding-bottom: 5px;
-                      margin-top: 0;
-                    }
-                    li { margin-bottom: 5px; }
-                  </style>
-
-                  <h2>🚀 Initial Release</h2>
-                  <ul>
-                    <li>Weekly Report Generation with PDF.</li>
-                    <li>Feedback System Integration.</li>
-                    <li>Follow-up System.</li>
-                    <li>Auto-update mechanism included.</li>
-                  </ul>
-                ]]>
-            </description>
+        <![CDATA[
+          <style>
+             body { font-family: 'Segoe UI', sans-serif; font-size: 14px; padding: 10px; color: #1e293b; }
+             h2 { color: #004182; border-bottom: 1px solid #e2e8f0; padding-bottom: 5px; margin-top: 0; }
+             li { margin-bottom: 5px; }
+          </style>
+          <h2>🚀 Initial Release</h2>
+          <ul>
+            <li>Weekly Report Generation with PDF.</li>
+            <li>Feedback System Integration.</li>
+            <li>Follow-up System.</li>
+            <li>Auto-update mechanism included.</li>
+          </ul>
+        ]]>
+      </description>
       <pubDate>Thu, 25 Dec 2025 12:00:00 +0000</pubDate>
 
       <enclosure
