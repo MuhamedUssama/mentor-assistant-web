@@ -34,10 +34,10 @@
         type="application/octet-stream" />
 
       <enclosure
-        url="https://github.com/MuhamedUssama/mentor-assistant-web/releases/download/v1.1.0/MentorAssistant.dmg"
+        url="https://github.com/MuhamedUssama/mentor-assistant-web/releases/download/v1.1.0/Mentor.Assistant.dmg"
         sparkle:version="1.1.0"
         sparkle:os="macos"
-        length="23762959"
+        length="2635858"
         type="application/octet-stream" />
     </item>
 
